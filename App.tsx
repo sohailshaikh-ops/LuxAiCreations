@@ -612,7 +612,7 @@ const Header: React.FC = () => {
         <header id="main-header" className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-black/80 backdrop-blur-sm shadow-lg shadow-gold/10' : 'bg-transparent'}`}>
             <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                 <a href="#home" onClick={handleSmoothScroll} className="focus-visible-ring" aria-label="LuxAiCreations Home">
-                    <img src="assets/images/logo1.png" alt="LuxAiCreations Logo" className="h-32 w-auto"/>
+                    <img src="/assets/images/logo1.png" alt="LuxAiCreations Logo" className="h-32 w-auto"/>
                 </a>
                 <nav className="hidden md:flex items-center space-x-8">
                     {navLinks.map(({label, href}) => (
