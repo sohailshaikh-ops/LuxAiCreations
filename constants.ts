@@ -1,0 +1,36 @@
+import type { PortfolioItem } from './types';
+import { PortfolioCategory } from './types';
+
+export const PORTFOLIO_ITEMS: PortfolioItem[] = [
+  // 15 Videos & 15 Images for a total of 30 items
+  { id: 1, type: 'video', src: '/assets/videos/homepage1.mp4', title: 'Cinematic accessories reveal', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 2, type: 'image', src: '/assets/images/watch1.png', title: 'Luxury watch Close-Up', category: PortfolioCategory.ONE_ONE },
+  { id: 3, type: 'video', src: '/assets/Videos/femalemodel.mp4', title: 'fashion model ', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 4, type: 'image', src: '/assets/images/doberman.png', title: 'doberman with jwells', category: PortfolioCategory.ONE_ONE },
+  { id: 5, type: 'video', src: '/assets/videos/transformation.mp4', title: 'Luxury accessories Showcase', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 6, type: 'image', src: '/assets/images/halfbodymodel.png', title: 'Diamond Earrings', category: PortfolioCategory.ONE_ONE },
+  { id: 7, type: 'video', src: '/assets/videos/modelmen.mp4', title: 'Ethereal Fashion Film', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 8, type: 'image', src: '/assets/images/luxurynecklaceshowcase.png', title: 'luxury necklace Showcase', category: PortfolioCategory.ONE_ONE },
+  { id: 9, type: 'video', src: '/assets/videos/transform1.mp4', title: 'Chronograph Details', category: PortfolioCategory.NINE_SIXTEEN },
+  { id: 10, type: 'image', src: '/assets/images/kinghauls.png', title: 'full body shot', category: PortfolioCategory.ONE_ONE },
+  { id: 11, type: 'video', src: '/assets/videos/luxurychainshot.mp4', title: 'luxurious chain shot', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 12, type: 'image', src: '/assets/images/floatingring.png', title: 'floating ring cgi ad', category: PortfolioCategory.ONE_ONE },
+  { id: 13, type: 'video', src: '/assets/videos/rollsroyals.mp4', title: 'luxury RR showcase ', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 14, type: 'image', src: '/assets/images/reddimond.png', title: 'red dimond', category: PortfolioCategory.ONE_ONE },
+  { id: 15, type: 'video', src: '/assets/videos/blackmodelwalking.mp4', title: 'black model walking shot', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 16, type: 'image', src: '/assets/images/waterdimond.png', title: 'luxury necklace visual', category: PortfolioCategory.ONE_ONE },
+  { id: 17, type: 'video', src: '/assets/videos/luxuryyatchshowcase.mp4', title: 'Oceanic Majesty', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 18, type: 'image', src: 'public/assets/images/diamondearing.png', title: 'diamond earing', category: PortfolioCategory.ONE_ONE },
+  { id: 19, type: 'video', src: '/assets/videos/femalemodelnecklace.mp4', title: 'female model necklace showcase', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 20, type: 'image', src: '/assets/images/seashellaccent.png', title: 'seashell accent', category: PortfolioCategory.ONE_ONE },
+  { id: 21, type: 'video', src: '/assets/videos/3in1.mp4', title: 'luxury visuals', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 22, type: 'image', src: '/assets/images/desertqueen.png', title: 'desert queen', category: PortfolioCategory.ONE_ONE },
+  { id: 23, type: 'video', src: '/assets/videos/lion shot.mp4', title: 'lion visual', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 24, type: 'image', src: '/assets/images/wsportscar.png', title: 'model w sports car showcase', category: PortfolioCategory.ONE_ONE },
+  { id: 25, type: 'video', src: '/assets/videos/modelfacecloseup.mp4', title: 'Studio Shot', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 26, type: 'image', src: '/assets/images/icedout reveal.png', title: 'Culinary Masterpiece', category: PortfolioCategory.ONE_ONE },
+  { id: 27, type: 'video', src: '/public/assets/videos/darkreveal.mp4', title: 'deep-dark reveal', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 28, type: 'image', src: '/assets/images/watchcloseup.png', title: 'watch Luxury showcase', category: PortfolioCategory.ONE_ONE },
+  { id: 29, type: 'video', src: '/assets/videos/5modelsluxai11.mp4', title: 'high-end production', category: PortfolioCategory.SIXTEEN_NINE },
+  { id: 30, type: 'image', src: '/assets/images/luxuryjwelleriesshowcase.png', title: 'jwelleries showcase', category: PortfolioCategory.ONE_ONE },
+];
